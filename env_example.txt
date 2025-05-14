@@ -1,0 +1,16 @@
+# OpenRouter API 环境变量配置示例
+# 请将此文件复制为.env文件，并替换为您的实际API密钥
+
+# OpenRouter API Key
+OPENROUTER_API_KEY=your_api_key_here
+
+# OpenRouter API URL (可选)
+OPENROUTER_API_URL=https://openrouter.ai/api/v1/chat/completions
+
+# OpenRouter模型 (可选)
+# 可选免费模型:
+# - nousresearch/deephermes-3-mistral-24b-preview:free (默认)
+# - palm2:free
+# - mistralai/mistral-7b-instruct:free
+# - google/gemma-7b-it:free
+OPENROUTER_MODEL=nousresearch/deephermes-3-mistral-24b-preview:free

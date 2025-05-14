@@ -1,0 +1,79 @@
+# SpecStory explanation file
+.specstory/.what-is-this.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.project
+.pydevproject
+.settings/
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Project specific
+results/
+logs/
+*.log
+.env.local
+.env.*.local
+
+# Node.js (for JavaScript version)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# OpenRouter test results
+test_results/
+results/
+!requirements.txt
+
+# Don't ignore examples but ignore sensitive files
+!example_*.json
+!sample_*.json
+*.secret.json
+api_key*.json
