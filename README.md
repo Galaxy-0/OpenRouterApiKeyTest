@@ -1,0 +1,2 @@
+# OpenRouterApiKeyTest
+测试多个api供应商服务是否可用
